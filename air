@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>生物学博士 [您的名字] 的主页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ddd;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- 请将下面的图片链接替换成您自己的照片链接 -->
+            <img src="https://via.placeholder.com/150" alt="[您的名字]的照片" class="profile-img">
+            <h1>[您的名字] 博士</h1>
+            <p>生物学研究者 | [您的研究方向，例如：分子生物学、生态学]</p>
+        </div>
+
+        <h2>关于我</h2>
+        <p>在这里写一段简单的自我介绍。例如：我是一名专注于[您的研究领域]的生物学博士，毕业于[您的大学]。我的研究兴趣包括[兴趣1]、[兴趣2]和[兴趣3]。</p>
+
+        <h2>教育背景</h2>
+        <ul>
+            <li><strong>博士学位 in 生物学</strong> - XX大学 (年份 - 年份)</li>
+            <li><strong>硕士学位 in 生物学</strong> - XX大学 (年份 - 年份)</li>
+            <li><strong>学士学位 in 生物学</strong> - XX大学 (年份 - 年份)</li>
+        </ul>
+
+        <h2>发表作品</h2>
+        <ul>
+            <li>第一篇论文标题，期刊名称，年份。 <a href="#">[链接]</a></li>
+            <li>第二篇论文标题，期刊名称，年份。 <a href="#">[链接]</a></li>
+            <!-- 可以继续添加更多 -->
+        </ul>
+
+        <h2>联系方式</h2>
+        <div class="contact-info">
+            <p>邮箱：<a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>
+                其他链接：
+                <a href="#">Google Scholar</a> |
+                <a href="#">ResearchGate</a> |
+                <a href="#">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
